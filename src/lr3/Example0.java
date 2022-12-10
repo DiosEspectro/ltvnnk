@@ -22,7 +22,6 @@ public class Example0 {
         }
 
         Arrays.sort(nums);
-
         System.out.println("Произведена сортировка массива");
 
         for(int i=0; i<nums.length; i++) {
