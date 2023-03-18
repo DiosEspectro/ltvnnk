@@ -43,8 +43,6 @@ public class myHtmlNewsParser {
                     Node titleNode = ((Element) nodes.get(i)).getElementsByClass("blocktitle").get(0).childNodes().get(0);
                     Node dateNode = ((Element) nodes.get(i)).getElementsByClass("blockdate").get(0).childNodes().get(0);
 
-                    //System.out.println("Тема: " + ((Element) nodes.get(i)).getElementsByClass("blocktitle").get(0).childNodes().get(0));
-                    //System.out.println("Дата: " + ((Element) nodes.get(i)).getElementsByClass("blockdate").get(0).childNodes().get(0) + "\n");
                     System.out.println("Тема: " + titleNode);
                     System.out.println("Дата: " + dateNode);
 
